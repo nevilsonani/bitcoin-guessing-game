@@ -1,0 +1,90 @@
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intervalSelection{
+    display: flex;
+    gap: 1rem;
+}
+.priceDisplay{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    /* background-color:burlywood;
+    padding: 1rem;
+    border-radius: 1rem; */
+}
+.currentPrice{
+    font-weight: 300;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.scoreSection{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: min(80%, 600px);
+    border: 1px solid gray;
+    padding: 4% 8%;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.scoreCounter{
+    position: absolute;
+    top:-20px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: palevioletred;
+    border-radius: 1rem;
+    color:white;
+    padding: 0.3rem 1rem;
+}
+
+.guessButtons{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+
+.guessButtons button {
+    width: 5rem;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    transition: box-shadow 0.2s ease;
+}
+
+.guessButtons button:hover{
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.guessButtons button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.upButton {
+    background-color: #2D8329;
+}
+
+.downButton {
+    background-color: #D84C21;
+}

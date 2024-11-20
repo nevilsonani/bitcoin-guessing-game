@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ECE4D8;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #F7931A;
+  font-size: 3rem;
+}
