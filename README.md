@@ -4,15 +4,8 @@ A game that challenges you to predict whether the price of Bitcoin (BTC/USD) wil
 
 
 
-Live URL : [Link](https://ishwarrimal.github.io/bitcoinprice-guessing-game/)  
 
-# Getting Started:
-1. Clone the repo `git clone https://github.com/ishwarrimal/bitcoinprice-guessing-game.git`
-2. Install required dependencies `npm install`
-3. Run the app locally: `npm run start`
-4. Testing the app: `npm run test`
-5. Deploying the app: `npm run deploy`
-    * we're currently using github pages to deploy the app.
+
 
 # Checklist
 
